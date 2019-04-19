@@ -6,6 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
+
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
@@ -24,7 +25,7 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{Giannis}{Thibaios}
+\name{Giannis}{Thivaios}
 \title{curriculum vitae}                                %optional, remove / comment the line if not wanted
 \address{Kyrillou Loukareos 74-76}{11522}{Ampelokipoi, Athens}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+306976437530}                   % optional, remove / comment the line if not wanted
@@ -58,25 +59,16 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Education}
-
-\cventry{2014--2017}{Master's Degree}{Mathematics of Computation and Decision Making}{University of Patras}{GPA -- 8}{\textbf{Thesis:} \emph{Study and Evaluation Techniques of Text Mining in Tweets for Politics.\,\, \href{https://github.com/gthiveos/Thesis}{\textbf{Link}}}\newline\textit{supervisor:} \texttt{Kotsiantis Sotirios}\newline grade: 9.5/10}  % Arguments not required can be left empty  % arguments 3 to 6 can be left empty
-\cventry{2005--2013}{Bachelor's Degree}{Department of Computer Engineering \& Informatics, School of Engineering}{University of Patras}{GPA -- 6.52}{\textbf{Thesis:} \emph {Modeling how a user is learning in interactive e-learning environments.\,\, \href{https://github.com/gthiveos/Thesis}{\textbf{Link}}}\newline\textit{supervisor:} \texttt{Likothanasis Spyridon}\newline grade: 10/10}
-\cventry{2002--2005}{Ptychion}{2nd High Shcool}{Levadia}{\textit{grade: 18.1}}{}
-
-
-
-%\section{Master thesis}
-%\cvitem{title}{\emph{Title}}
-%\cvitem{supervisors}{Supervisors}
-%\cvitem{description}{Short thesis abstract}
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
 
 \section{Experience}
 
-\cventry{02/2016 -- Present}{Customer Experiences Services Consultant}{\textsc{SingularLogic}}{Athens}{}{
+\cventry{03/2018 -- Present}{Data Scientist}{\textsc{IRI}}{Athens}{}{
+\begin{itemize}
+   \item Dealing with very big datasets (TBs), stored in Hadoop clusters.
+   \item Statistical modeling on huge amount of data
+\end{itemize}}
+
+\cventry{02/2016 -- 03/2018}{Customer Experiences Services Consultant}{\textsc{SingularLogic}}{Athens}{}{
 \begin{itemize}
 	\item Gather Business Requirements, develop, deploy and support software solutions (Siebel Platform)
 	\item Data Migration (Oracle SQL)
@@ -105,6 +97,25 @@
 \item Customer Service Experience
 \end{itemize}}
 
+
+\section{Education}
+
+\cventry{2014--2017}{Master's Degree}{Mathematics of Computation and Decision Making}{University of Patras}{GPA -- 8}{\textbf{Thesis:} \emph{Study and Evaluation Techniques of Text Mining in Tweets for Politics.\,\, \href{https://github.com/gthiveos/Thesis}{\textbf{Link}}}\newline\textit{supervisor:} \texttt{Kotsiantis Sotirios}\newline grade: 9.5/10}  % Arguments not required can be left empty  % arguments 3 to 6 can be left empty
+\cventry{2005--2013}{Bachelor's Degree}{Department of Computer Engineering \& Informatics, School of Engineering}{University of Patras}{GPA -- 6.52}{\textbf{Thesis:} \emph {Modeling how a user is learning in interactive e-learning environments.\,\, \href{https://github.com/gthiveos/Thesis}{\textbf{Link}}}\newline\textit{supervisor:} \texttt{Likothanasis Spyridon}\newline grade: 10/10}
+\cventry{2002--2005}{Ptychion}{2nd High Shcool}{Levadia}{\textit{grade: 18.1}}{}
+
+
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+
 %----------------------------------------------------------------------------------------
 %	FOREIGN LANGUAGES
 %----------------------------------------------------------------------------------------
@@ -123,17 +134,17 @@
 \cvlistdoubleitem{Windows}{GNU/Linux}
 
 \subsection{Programming Languages}
-\cvlistdoubleitem{PHP}{SQL}
-\cvlistdoubleitem{Python}{R}
+\cvlistdoubleitem{SQL}{Python}
+\cvlistdoubleitem{R}{Bash/Shell/Git}
 \cvlistdoubleitem{Javascript}{HTML/CSS}
-\cvlistdoubleitem{C/C++}{Bash/Shell/Git}
+\cvlistdoubleitem{C/C++}{PHP}
 
 \subsection{Applications/Platforms}
-\cvlistdoubleitem{Spark}{SciKit learn - Python}
+\cvlistdoubleitem{Spark}{Hadoop/Hive}
 \cvlistdoubleitem{Weka}{Orange}
-\cvlistdoubleitem{SPSS}{Power BI}
-\cvlistdoubleitem{Matlab}{Microsoft/Libre Office}
-\cvlistdoubleitem{\LaTeX}{Siebel}
+\cvlistdoubleitem{SPSS}{Matlab}
+\cvlistdoubleitem{\LaTeX}{Microsoft/Libre Office}
+\cvlistitem{Siebel}
 
 
 \subsection{Web}
@@ -141,7 +152,6 @@
 
 % CERTIFICATIONS
 \section{Certifications}
-\cvitem{02/2018}{\textbf{Spark and Python for Big Data with PySpark} \newline Udemy | \href{https://www.udemy.com/certificate/UC-9RZTMPPX/}{Link}}
 \cvitem{11/2017}{\textbf{MongoDB Basics} \newline MongoDB University | \href{https://university.mongodb.com/course_completion/0531b4aa-4390-4ed7-9dc7-eb7db867}{Link}}
 \cvitem{06/2017}{\textbf{Siebel 8 Consultant Certified Expert} \newline Oracle | \href{https://www.youracclaim.com/badges/231e1aaa-b1ad-4408-8d40-7e5737f0e158}{Link}}
 
